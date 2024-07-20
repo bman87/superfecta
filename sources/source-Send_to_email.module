@@ -49,6 +49,7 @@ class Send_to_Email extends superfecta_base {
 		'Use_HTML' => array(
 			'description' => _('HTML enabled email'),
 			'type' => 'checkbox',
+			'default' => 'off'
 		),
     );
 
